@@ -1,9 +1,9 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const image = new Image();
-image.src = '/images/piedra_navideña.png';
+image.src = './images/piedra_navideña.png';
 
-const bounceSound = new Audio('/sounds/minecraft.mp3');
+const bounceSound = new Audio('./sounds/minecraft.mp3');
 
 let x = canvas.width / 2;
 let y = canvas.height - 30;
